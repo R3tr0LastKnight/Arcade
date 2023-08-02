@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Arcade/static/css/main.b0ac3b9d.css",
+    "main.js": "/Arcade/static/js/main.e2a8b5f4.js",
+    "index.html": "/Arcade/index.html",
+    "main.b0ac3b9d.css.map": "/Arcade/static/css/main.b0ac3b9d.css.map",
+    "main.e2a8b5f4.js.map": "/Arcade/static/js/main.e2a8b5f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0ac3b9d.css",
+    "static/js/main.e2a8b5f4.js"
+  ]
+}

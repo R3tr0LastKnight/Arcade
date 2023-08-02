@@ -1,12 +1,15 @@
 import React from "react";
 import Nav from "./Nav";
 import Body from "./Body";
+import { motion, useAnimation } from "framer-motion";
 
 const Home = () => {
   return (
     <div>
       <Nav />
-      <Body />
+      <motion.div>
+        <Body />
+      </motion.div>
     </div>
   );
 };

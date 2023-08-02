@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="h1Front">TEMPS</h1>
+      <h1 class="h1Back">TEMPS</h1>
+    </div>
+
+    <div class="calci">
+      <div class="disp"><input type="text" name="display" /></div>
+      <div class="body">
+        <div class="nos">
+          <input class="number" type="button" value="7" />
+          <input class="number" type="button" value="8" />
+          <input class="number" type="button" value="9" />
+          <input class="number" type="button" value="4" />
+          <input class="number" type="button" value="5" />
+          <input class="number" type="button" value="6" />
+          <input class="number" type="button" value="1" />
+          <input class="number" type="button" value="2" />
+          <input class="number" type="button" value="3" />
+          <button class="git">
+            <a href="https://github.com/ShubhShahu"
+              ><img src="media/git.svg" alt=""
+            /></a>
+          </button>
+          <input class="number" id="zero" type="button" value="0" />
+        </div>
+        <div class="operators">
+          <div class="filter">
+            <div>
+              <input type="radio" id="cel" name="filter" value="cel" />
+              <label for="cel">&deg;C -> &deg;F</label>
+            </div>
+            <div>
+              <input type="radio" id="far" name="filter" value="far" />
+              <label for="far">&deg;F -> &deg;C</label>
+            </div>
+            <div>
+              <input type="radio" id="kel" name="filter" value="kel" />
+              <label for="kel">&deg;C -> K</label>
+            </div>
+            <div>
+              <input type="radio" id="kc" name="filter" value="kc" />
+              <label for="kc">K -> &deg;C</label>
+            </div>
+          </div>
+
+          <input class="sus" type="button" value="DEL" />
+          <input class="sus" type="button" value="AC" />
+          <input class="sus" id="convert" type="button" value="Convert" />
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

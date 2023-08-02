@@ -1,6 +1,6 @@
 import React from "react";
 import "./body.css";
-// import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 
 import Calci from "../calciBox/Calci";
 import Task from "../taskBox/Task";
@@ -9,12 +9,12 @@ import Rick from "../rickBox/Rick";
 
 const Body = () => {
   return (
-    <div className="body">
+    <motion.div className="body">
       <Calci />
       <Task />
       <Temp />
       <Rick />
-    </div>
+    </motion.div>
   );
 };
 

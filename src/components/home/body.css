@@ -1,6 +1,9 @@
 .body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  text-decoration: none;
+  /* caret-color: transparent; */
 }
 .box {
   width: 100%;
@@ -13,20 +16,45 @@
 }
 .box h1 {
   cursor: pointer;
+  font-family: "Handjet", cursive;
+  /* margin: auto; */
+  font-size: 100px;
+  margin-bottom: 3%;
+}
+.box h1:hover {
+  filter: drop-shadow(00px 10px 00px #fff);
+  transform: translateY(-0.25em);
 }
 
 #calci {
-  background-color: aqua;
+  background-color: #38a3a5;
   position: relative;
 }
+.calciHead {
+  font-family: "Handjet", cursive;
+
+  font-weight: 500;
+}
 #task {
-  background-color: aquamarine;
+  background-color: #4a6fa5;
+}
+.taskHead {
+  font-family: "Arvo", serif;
+  /* font-size: 80px; */
 }
 #temp {
   background-color: darkseagreen;
 }
+.tempHead {
+  font-family: "Anton", sans-serif;
+  /* font-size: 100px; */
+}
 #rick {
-  background-color: darkkhaki;
+  background-color: #8d99ae;
+}
+.hoverHead {
+  font-family: "Kaushan Script", cursive;
+  /* font-size: 100px; */
 }
 
 /* #calci h1 {
@@ -34,7 +62,40 @@
 } */
 .out {
   position: relative;
-  top: -38%;
+  top: -20%;
   left: 95%;
   width: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info p {
+  font-size: 25px;
+  font-family: "Handjet", cursive;
+  font-weight: 500;
+  width: 50%;
+  margin-bottom: 1%;
+}
+
+.btn {
+  border: solid 2px #fff;
+  /* width: 100%; */
+  color: #fff;
+  margin: 20px;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-family: "Handjet", cursive;
+  cursor: pointer;
+  background-color: #000;
+}
+.btn:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(0px 5px 10px #fff);
+}
+
+a {
+  color: #fff;
 }

@@ -1,0 +1,40 @@
+.body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box {
+  width: 100%;
+  height: 50vh;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.box h1 {
+  cursor: pointer;
+}
+
+#calci {
+  background-color: aqua;
+  position: relative;
+}
+#task {
+  background-color: aquamarine;
+}
+#temp {
+  background-color: darkseagreen;
+}
+#rick {
+  background-color: darkkhaki;
+}
+
+/* #calci h1 {
+  text-align: center;
+} */
+.out {
+  position: relative;
+  top: -38%;
+  left: 95%;
+  width: 10px;
+}
